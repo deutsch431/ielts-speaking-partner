@@ -1,0 +1,19 @@
+# Environment variables (Crucial for API safety)
+.env
+.env.local
+.env.*
+
+# Python Cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Node / JS Dependencies (if tracked from root)
+node_modules/
+dist/
+build/
+.eslintcache
+
+# OS Files
+.DS_Store
+Thumbs.db
